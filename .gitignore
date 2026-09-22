@@ -1,17 +1,35 @@
-__pycache__/
-*.pyc
-*.pyo
+# Node / React
+node_modules/
+dist/
+.vscode/
+.env
 
+# Database
 *.db
 *.sqlite
 *.sqlite3
 
-.venv/
-venv/
-env/
-node_modules/
-dist/
-.env
+# Logs
 *.log
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Local backup folders 
 local-backup/
-model/
+EchoMap-Dashboard-Backup/
+
+# Build/cache files
+coverage/
+.cache/
