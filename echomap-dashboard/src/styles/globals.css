@@ -1,0 +1,63 @@
+::-webkit-scrollbar{
+  width:8px;
+}
+
+::-webkit-scrollbar-track{
+  background:#12081D;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#7E22CE;
+  border-radius:999px;
+}
+
+.glass{
+  background:rgba(23,12,34,.65);
+  backdrop-filter:blur(18px);
+  border:1px solid rgba(168,85,247,.08);
+  border-radius:28px;
+}
+
+.dashboard-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:24px;
+}
+
+.page-container{
+  display:flex;
+  flex-direction:column;
+  gap:24px;
+}
+
+.panel-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+.panel-header p{
+  color:#C084FC;
+  font-size:12px;
+  letter-spacing:.18em;
+}
+
+.panel-header h2{
+  color:white;
+  margin-top:4px;
+}
+
+.progress-track{
+  width:100%;
+  height:8px;
+  background:#281339;
+  border-radius:999px;
+  overflow:hidden;
+}
+
+.progress-fill{
+  height:100%;
+  background:#A855F7;
+  border-radius:999px;
+}
